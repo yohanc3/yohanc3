@@ -1,12 +1,12 @@
-<table>
+<table width="100%">
   <tr>
-    <td width="56%" valign="top">
+    <td width="50%" valign="top">
       <picture>
         <source media="(prefers-color-scheme: dark)" srcset="./ascii-dark.svg">
-        <img src="./ascii-light.svg" alt="ASCII portrait of Yohance" width="100%">
+        <img src="./ascii-light.svg" alt="ASCII portrait of Yohance" width="470">
       </picture>
     </td>
-    <td width="44%" valign="top">
+    <td width="50%" valign="top">
       <h2>hey, i’m Yohance.</h2>
       <p>I’m a computer science student and software builder interested in useful tools—especially where automation, AI, and thoughtful product engineering meet.</p>
       <p>Software is a creative medium. I like making things that remove busywork and give people better ways to understand what is in front of them.</p>

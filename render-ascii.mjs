@@ -7,10 +7,10 @@ const escapeXml = (value) => value
   .replaceAll(">", "&gt;");
 
 const render = ({ background, foreground, output }) => {
-  const lineHeight = 10;
-  const padding = 12;
+  const lineHeight = 10.5;
+  const padding = 20;
   const width = 470;
-  const height = padding * 2 + lines.length * lineHeight;
+  const height = 470;
   const rows = lines.map((line, index) =>
     `    <tspan x="${padding}" y="${padding + 8 + index * lineHeight}">${escapeXml(line)}</tspan>`
   ).join("\n");
